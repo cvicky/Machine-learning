@@ -21,4 +21,7 @@ def NBAccuracy(features_train, labels_train, features_test, labels_test):
     accuracy = clf.score(features_train, labels_train)
     return accuracy
     
+    
+    #Or print out the accuracy
+    ###print clf.score(features_test, labels_test)
     #{"accuracy": "0.9"}
