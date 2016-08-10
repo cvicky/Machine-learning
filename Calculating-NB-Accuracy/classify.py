@@ -22,6 +22,11 @@ def NBAccuracy(features_train, labels_train, features_test, labels_test):
     return accuracy
     
     
-    #Or print out the accuracy
-    ###print clf.score(features_test, labels_test)
+    # Or print out the accuracy
+    ### print clf.score(features_test, labels_test)
+    
+    ### You can also import accuracy_score
+    # from sklearn.metrics import accuracy_score
+    # print accuracy_score(pred, labels_test)
+    
     #{"accuracy": "0.9"}
